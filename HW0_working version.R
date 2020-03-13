@@ -14,8 +14,7 @@ library(BigVAR)
 library(tsDyn)
 library(urca)
 
-setwd("~/Documents/GitHub/bank_inst_has/metrics")
-#setwd('C:\\Users\\123\\Desktop\\metricsGalya\\met\\')
+setwd("~/Documents/GitHub/forecasting/")
 
 #Data import
 dd=import('data_for_HW1.xlsx')

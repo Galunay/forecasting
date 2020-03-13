@@ -28,7 +28,7 @@ library(tinytex)
 library(knitr)
 #tinytex::install_tinytex()
 
-setwd("~/Documents/GitHub/bank_inst_has/metrics")
+setwd("~/Documents/GitHub/forecasting/")
 
 #Data import
 dd=import('data_for_HW1.xlsx')
@@ -545,7 +545,7 @@ To see more tests please look to the appendix.
 
 ### Appendix with sweet graphs
 
-All graphs, code, rmd and some other things that makes ~~me cry for a week~~ this work full you may fing on GitHub public repository [ following this link](https://github.com/Galunay/bank_inst_has/tree/master/metrics) :)
+All graphs, code, rmd and some other things that makes ~~me cry for a week~~ this work full you may fing on GitHub public repository [ following this link](https://github.com/Galunay/forecasting) :)
 
 
 P.S. I miss so much the faculty of economic science, sweet Poisson and room 2112 :c
