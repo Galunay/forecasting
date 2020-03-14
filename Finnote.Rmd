@@ -3,10 +3,10 @@ title: "“Forecasting of individual’s deposits volume of Sberbank with respec
 author: "CosmoGalya"
 date: "3/12/2020"
 output:
-  word_document: default
+  pdf_document: default
   html_document:
     df_print: paged
-  pdf_document: default
+  word_document: default
 ---
 ```{r message=FALSE, warning=FALSE, include=FALSE, paged.print=FALSE}
 library(tseries)
