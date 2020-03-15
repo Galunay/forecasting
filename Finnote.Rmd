@@ -508,7 +508,7 @@ We first estimate the proposed models on the sample till the December, 2014 and 
 We then sequentially add new points with 1-month step to the train sample  and shift the test sample by 1 month to the right. 
 We then reestimate models and calculate out-of-sample forecasts for a new train sample. 
 
-Using RMSE-ratio (RMSE of the model/RMSE of the benchmark) we concluded VECM, VAR restricted and ETS as best prediction models.VAR and VECM are the best models for forecasting as it used other variables that affects directly the volume of the deposits. Restrictions that are included in those models increase the accuracy as some problems as multicollinearity and endogeneity partially solved with its help.
+Using RMSE-ratio (RMSE of the model/RMSE of the benchmark) we concluded VECM, VAR restricted and ETS as best prediction models.VAR and VECM are the best models for forecasting as it used other variables that affects directly the volume of the deposits. Restrictions that are included in those models increase the accuracy as some problems as multicollinearity and endogeneity partially solved with its help. 
 
 ```{r echo=FALSE, message=FALSE, warning=FALSE, paged.print=FALSE}
 
